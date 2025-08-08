@@ -214,6 +214,164 @@ nav {
     padding: 10px;
 }
 
+/* PROJECT PART */
+
+#project {
+    margin: 15% 100px;
+}
+
+.project-row {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin-top: 5%;
+    margin-bottom: 20%;
+
+}
+
+.project-col1 {
+    flex-basis: 50%;
+}
+
+.project-col2 {
+    flex-basis: 50%;
+}
+
+.techstack {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    padding: 0px 10px;
+}
+
+.projectName {
+    color: yellow;
+}
+
+.projectdesc {
+    color: #848484;
+}
+
+.features {
+    margin-top: 10px;
+    color: rgb(255, 255, 158);
+    text-decoration: underline;
+}
+
+.prjlist {
+    color: #848484;
+    padding-left: 20px;
+}
+
+.projectcard {
+    width: 90px;
+    height: 40px;
+    border: solid rgb(112, 109, 62) 1px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    backdrop-filter: blur(3px);
+    background-color: rgba(111, 111, 64, 0.168);
+    display: flex;
+}
+
+.projectcard>p {
+    margin-top: 15px;
+    font-size: 6px;
+    padding-right: 3px;
+    text-align: center;
+}
+
+.pimg {
+    width: 25px;
+    height: 25px;
+    margin-top: 6px;
+    padding: 2px;
+}
+
+.source {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-github {
+    border: solid rgb(112, 109, 62) 1px;
+    background-color: rgba(111, 111, 64, 0.168);
+    text-decoration: none;
+    color: yellow;
+    padding: 10px;
+    position: absolute;
+    margin: 20px 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(3px);
+}
+
+.btn-github:hover {
+    box-shadow: 0 0 50px -10px rgb(255, 255, 0);
+    transition-delay: 0.07s;
+}
+
+.project-col2 {
+    border: solid rgb(112, 109, 62) 1px;
+    border-radius: 5px;
+    background-color: rgba(111, 111, 64, 0.168);
+    backdrop-filter: blur(3px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectimg{
+    width: 250px;
+    border-radius: 10px;
+    transition:1s;
+}
+.projectimg:hover{
+    width: 280px;
+    box-shadow: 0 0 50px -10px rgb(185, 63, 255);
+}
+.pfirst{
+    background-color: rgba(185, 63, 255, 0.03);
+    border: solid rgb(99, 62, 112) 1px;
+}
+.pfirstname{
+    color: rgb(185, 63, 255);
+}
+.pfirstbg{
+    background-color: rgb(185, 63, 255,0.168);
+    border: solid rgb(99, 62, 112) 1px;
+}
+.pfirstgit{
+    background-color: rgb(185, 63, 255,0.168);
+    border: solid rgb(99, 62, 112) 1px;
+    color: rgb(185, 63, 255);
+}
+.pfirstgit:hover{
+    box-shadow: 0 0 50px -10px rgb(185, 63, 255);
+}
+.psec{
+    background-color: rgb(0, 255, 200, 0.03);;
+    border: solid rgba(0, 255, 200, 0.316) 1px;
+}
+.psecname{
+    color: rgb(0, 255, 200);
+}
+.psecbg{
+    background-color: rgb(0, 255, 200, 0.03);;
+    border: solid rgba(0, 255, 200, 0.316) 1px;
+}
+.psecgit{
+    background-color: rgb(0, 255, 200, 0.03);;
+    border: solid rgba(0, 255, 200, 0.316) 1px;
+    color: rgb(0, 255, 200);
+}
+.psecgit:hover{
+    box-shadow: 0 0 50px -10px rgb(0, 255, 200);
+}
+.psecimg:hover{
+    box-shadow: 0 0 50px -10px rgb(0, 255, 200);
+}
+
 .iconCollection {
     display: flex;
     justify-content: center;
@@ -303,22 +461,6 @@ footer {
 
 html {
     scroll-behavior: smooth;
-}
-
-/* Hide checkbox and hamburger by default  */
-
-.menu-toggle {
-    display: none;
-}
-
-.hamburger {
-    display: none;
-    font-size: 30px;
-    color: white;
-    cursor: pointer;
-    user-select: none;
-    background: none;
-    border: none;
 }
 
 /* RESPONSIVE MOBILE */
@@ -474,6 +616,11 @@ html {
         height: 35px;
         margin-top: 2px;
     }
+/* PROJECT SECTION */
+#project {
+    display: none;
+}
+
 
     .iconCollection {
         display: flex;
